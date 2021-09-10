@@ -18,7 +18,9 @@ return [
     'braces' => true,
     'cast_spaces' => true,
     'class_attributes_separation' => [
-        'elements' => ['method' => 'one'],
+        'elements' => [
+            'method' => 'one',
+        ],
     ],
     'class_definition' => true,
     'concat_space' => [
@@ -49,6 +51,9 @@ return [
     'magic_method_casing' => true, // added from Symfony
     'magic_constant_casing' => true,
     'method_argument_space' => true,
+    'multiline_whitespace_before_semicolons' => [
+        'strategy' => 'no_multi_line',
+    ],
     'native_function_casing' => true,
     'no_alias_functions' => true,
     'no_extra_blank_lines' => [
@@ -70,9 +75,6 @@ return [
         'use' => 'echo',
     ],
     'no_multiline_whitespace_around_double_arrow' => true,
-    'multiline_whitespace_before_semicolons' => [
-        'strategy' => 'no_multi_line',
-    ],
     'no_short_bool_cast' => true,
     'no_singleline_whitespace_before_semicolons' => true,
     'no_spaces_after_function_name' => true,
@@ -84,6 +86,7 @@ return [
     'no_trailing_whitespace_in_comment' => true,
     'no_unneeded_control_parentheses' => true,
     'no_unreachable_default_argument_value' => true,
+    'no_unused_imports' => true,
     'no_useless_return' => true,
     'no_whitespace_before_comma_in_array' => true,
     'no_whitespace_in_blank_line' => true,
