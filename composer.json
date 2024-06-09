@@ -1,5 +1,5 @@
 {
-    "name": "sambindoff/php-styles",
+    "name": "y0rdie/php-styles",
     "description": "My shared PHP style rules for PHP-CS-Fixer",
     "license": "MIT",
     "require": {

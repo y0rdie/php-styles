@@ -1,6 +1,6 @@
 <?php
 
-namespace SamBindoff;
+namespace Yordie;
 
 use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
